@@ -1,4 +1,4 @@
-package springframework.sfgpetclinic;
+package springframework.sfgpetclinic;//package springframework;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
