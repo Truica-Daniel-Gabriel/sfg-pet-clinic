@@ -10,9 +10,15 @@
         <module name="sfg-pet-clinic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="idk" target="17" />
+      <module name="sfg-di" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="idk" options="-parameters" />
+      <module name="sfg-di" options="-parameters" />
       <module name="sfg-pet-clinic" options="-parameters" />
     </option>
   </component>
